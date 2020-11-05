@@ -4,7 +4,7 @@
 
 **Netlify-Host:** [Website](https://apar-todo.netlify.app/)
 
-> ## Discription 
+> ## Description 
 
 * This is a basic To-Do App that allows user to make a list of things they want to do and can access the list from all over the internet
 
