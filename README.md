@@ -4,7 +4,7 @@
 
 **Netlify-Host:** [Website](https://apar-todo.netlify.app/)
 
->Discription 
+>##Discription 
 
 * This is a basic To-Do App that allows user to make a list of things they want to do and can access the list from all over the internet
 
@@ -15,3 +15,12 @@
 * The time of the creation of a certain task will be stored and displayed for future reference
 
 * The user can also filter the task according to if they are completed or not
+
+
+>##Technologies
+
+* React javaScript as a devleopment framework
+
+* Firebase Authentication to verify the user and SignUp
+
+* Firebase Realtime Database to store the data
