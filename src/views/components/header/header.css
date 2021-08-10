@@ -1,7 +1,8 @@
 .header {
   padding: 10px 0;
   height: 100px;
-  line-height: 40px; }
+  line-height: 40px;
+}
 
 .header__title {
   align-content: center;
@@ -9,39 +10,72 @@
   font-size: 40px;
   font-weight: 400;
   text-rendering: auto;
-  transform: translate(0, 0); }
-  .header__title:before {
-    padding-right: 5px;
-    color: #fff;
-    line-height: 20px; }
+  transform: translate(0, 0);
+}
+.header__title:before {
+  padding-right: 5px;
+  color: #fff;
+  line-height: 20px;
+}
 
 .header__actions {
   float: right;
   padding: 8px 0;
-  line-height: 24px; }
-  .header__actions:after {
-    clear: both;
-    content: '';
-    display: table; }
-  .header__actions li {
-    float: left;
-    list-style: none; }
-    .header__actions li:last-child {
-      margin-left: 12px;
-      padding-left: 12px;
-      border-left: 1px solid #333; }
-    .header__actions li:first-child {
-      border: none; }
-  .header__actions .btn {
-    display: block;
-    margin: 0;
-    color: #999;
-    font-size: 0.875rem;
-    line-height: 24px; }
-  .header__actions .link {
-    display: block;
-    fill: #98999a;
-    transform: translate(0, 0); }
+  line-height: 24px;
+}
+.header__actions:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.header__actions li {
+  float: left;
+  list-style: none;
+}
+.header__actions li:last-child {
+  margin-left: 12px;
+  padding-left: 12px;
+  border-left: 1px solid #333;
+}
+.header__actions li:first-child {
+  border: none;
+}
+.header__actions .btn {
+  display: block;
+  margin: 0;
+  color: #999;
+  font-size: 0.875rem;
+  line-height: 24px;
+}
+.header__actions .link {
+  display: block;
+  fill: #98999a;
+  transform: translate(0, 0);
+}
 
 .btn-container {
-  text-align: center; }
+  text-align: center;
+}
+
+.head-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help-button {
+  outline: none;
+  background-color: transparent;
+  margin-left: 20px;
+  align-self: center;
+  display: flex;
+  align-content: center;
+  border: none;
+}
+
+.help-button::focus {
+  border: none;
+}
+.help-button::-moz-focus-inner {
+  border: 0;
+}

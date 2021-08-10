@@ -12,7 +12,7 @@ import About from "../pages/about";
 import TasksPage from "../pages/tasks";
 
 const App = ({ authenticated, signOut }) => (
-  <div>
+  <div className="todo-body">
     <Header authenticated={authenticated} signOut={signOut} />
 
     <main>
@@ -36,10 +36,6 @@ App.propTypes = {
   authenticated: PropTypes.bool.isRequired,
   signOut: PropTypes.func.isRequired,
 };
-
-//=====================================
-//  CONNECT
-//-------------------------------------
 
 const mapStateToProps = getAuth;
 

@@ -1,12 +1,14 @@
 .sign-in {
   margin-top: 90px;
-  max-width: 300px; }
+  max-width: 300px;
+}
 
 .sign-in__heading {
   margin-bottom: 36px;
   font-size: 30px;
   font-weight: 300;
-  text-align: center; }
+  text-align: center;
+}
 
 .sign-in__button {
   margin-bottom: 10px;
@@ -16,7 +18,9 @@
   font-family: inherit;
   font-size: rem(18px);
   line-height: 48px;
-  color: #999; }
-  .sign-in__button:hover {
-    border: 2px solid #aaa;
-    line-height: 46px; }
+  color: #999;
+}
+.sign-in__button:hover {
+  border: 2px solid #aaa;
+  line-height: 46px;
+}

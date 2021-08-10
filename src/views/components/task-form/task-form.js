@@ -12,7 +12,6 @@ export class TaskForm extends Component {
     super(...arguments);
 
     this.state = { title: "", subtitle: "" };
-
     this.handleChange = this.handleChange.bind(this);
     this.handleKeyUp = this.handleKeyUp.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -44,7 +43,6 @@ export class TaskForm extends Component {
           autoComplete="off"
           autoFocus
           className="task-form__input"
-          // maxLength="64"
           onChange={this.handleChange}
           onKeyUp={this.handleKeyUp}
           placeholder="What needs to be done?"

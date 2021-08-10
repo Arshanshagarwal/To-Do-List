@@ -1,5 +1,6 @@
 .task-item {
   display: flex;
+  flex-wrap: wrap;
   outline: none;
   border-bottom: 1px dotted #666;
   min-height: 60px;
@@ -121,4 +122,8 @@
 
 .subtask-btn {
   background-color: #f0efeb;
+}
+
+.title-cell {
+  min-width: 200px;
 }

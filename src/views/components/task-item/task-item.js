@@ -166,7 +166,7 @@ export class TaskItem extends Component {
             </Button>
           </div>
 
-          <div className="cell">
+          <div className="cell title-cell">
             <a
               data-toggle="collapse"
               data-parent="#accordion"
