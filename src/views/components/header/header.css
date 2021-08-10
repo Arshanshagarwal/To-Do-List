@@ -9,12 +9,14 @@
   justify-content: flex-end;
 }
 .title-background {
-  background: url("https://see.fontimg.com/api/renderfont4/rg38A/eyJyIjoiZnMiLCJoIjo4MSwidyI6MTI1MCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/VG9kbyBMaXN0/handodle.png")
+  background: url("https://see.fontimg.com/api/renderfont4/RpqoE/eyJyIjoiZnMiLCJoIjoyMzMsInciOjEyNTAsImZzIjoxODYsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/VG9kbyBMaXN0/scribble-note-demo-regular.png")
     no-repeat;
-  height: 400px;
-  width: 400px;
+
+  background-size: contain;
+  height: 100px;
+  width: 350px;
   top: 20px;
-  /* left: -50px; */
+  display: flex;
   position: absolute;
 }
 /* .title-background:hover {
